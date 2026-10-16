@@ -1,0 +1,75 @@
+无弹双轴跟随：请确认无弹、云台附近无人、蓝色装甲板静止、遥控器在手动档。按回车启动；提示后再切视觉档。
+[2026-10-15 13:48:38.623] [info] HikRobot's daemon thread started.
+实机模式：20 Hz、fire_flag=0、最多 8 秒双轴跟随；串口=/dev/ttyACM0；最低分数=0.8
+[2026-10-15 13:48:38.937] [info] HikRobot's capture thread started.
+frame=0 target=(735.670,519.600) candidates=1 image_age_ms=36 yaw=25.057 pitch=3.257 mode=0 feedback_age_ms=0
+计划：target=(735.786,519.722) 偏差=(16.286,-19.778) px；状态=双轴朝图像中心小幅修正；yaw 25.057° -> 24.907°；pitch 3.260° -> 3.110°；fire_flag=0
+开始保持起始角度。请现在拨到视觉档；最多等待 15 秒。
+frame=10 target=(735.502,519.613) candidates=1 image_age_ms=38 yaw=25.056 pitch=3.263 mode=0 feedback_age_ms=0
+frame=20 target=(735.574,519.401) candidates=1 image_age_ms=44 yaw=25.060 pitch=3.260 mode=0 feedback_age_ms=0
+frame=30 target=(735.876,519.381) candidates=1 image_age_ms=46 yaw=25.049 pitch=3.255 mode=0 feedback_age_ms=0
+frame=40 target=(735.758,519.170) candidates=1 image_age_ms=37 yaw=25.044 pitch=3.255 mode=0 feedback_age_ms=0
+frame=50 target=(735.953,519.241) candidates=1 image_age_ms=32 yaw=25.042 pitch=3.256 mode=0 feedback_age_ms=0
+视觉档连续收到 3 次新回传，先保持 0.7 秒。
+frame=60 target=(736.186,518.913) candidates=1 image_age_ms=37 yaw=25.050 pitch=3.259 mode=1 feedback_age_ms=0
+frame=70 target=(736.180,518.823) candidates=1 image_age_ms=41 yaw=25.049 pitch=3.258 mode=1 feedback_age_ms=0
+frame=80 target=(736.328,519.018) candidates=1 image_age_ms=42 yaw=25.051 pitch=3.260 mode=1 feedback_age_ms=0
+开始 8 秒双轴跟随；目标必须静止，fire_flag=0。
+frame=90 target=(736.383,518.980) candidates=1 image_age_ms=39 yaw=25.062 pitch=3.255 mode=1 feedback_age_ms=0
+frame=100 target=(731.595,521.209) candidates=1 image_age_ms=35 yaw=24.883 pitch=3.137 mode=1 feedback_age_ms=0
+控制：target=(731.595,521.209) 偏差=(12.095,-18.291) px；回传=(24.883°,3.137°) 目标=(24.733°,2.987°)；状态=双轴朝图像中心小幅修正
+frame=110 target=(724.167,529.757) candidates=1 image_age_ms=45 yaw=24.666 pitch=2.965 mode=1 feedback_age_ms=0
+frame=120 target=(720.931,532.015) candidates=1 image_age_ms=39 yaw=24.630 pitch=2.830 mode=1 feedback_age_ms=0
+控制：target=(720.931,532.015) 偏差=(1.431,-7.485) px；回传=(24.630°,2.830°) 目标=(24.630°,2.680°)；状态=双轴朝图像中心小幅修正
+frame=130 target=(723.453,536.805) candidates=1 image_age_ms=31 yaw=24.687 pitch=2.732 mode=1 feedback_age_ms=0
+frame=140 target=(720.503,534.654) candidates=1 image_age_ms=38 yaw=24.620 pitch=2.753 mode=1 feedback_age_ms=0
+控制：target=(720.503,534.654) 偏差=(1.003,-4.846) px；回传=(24.620°,2.753°) 目标=(24.620°,2.605°)；状态=双轴朝图像中心小幅修正
+frame=150 target=(722.202,536.895) candidates=1 image_age_ms=32 yaw=24.615 pitch=2.761 mode=1 feedback_age_ms=0
+frame=160 target=(722.350,538.939) candidates=1 image_age_ms=44 yaw=24.641 pitch=2.721 mode=1 feedback_age_ms=0
+控制：target=(722.350,538.939) 偏差=(2.850,-0.561) px；回传=(24.641°,2.721°) 目标=(24.641°,2.721°)；状态=双轴朝图像中心小幅修正
+frame=170 target=(722.027,537.564) candidates=1 image_age_ms=43 yaw=24.620 pitch=2.729 mode=1 feedback_age_ms=0
+frame=180 target=(721.302,536.342) candidates=1 image_age_ms=41 yaw=24.588 pitch=2.709 mode=1 feedback_age_ms=0
+控制：target=(721.302,536.342) 偏差=(1.802,-3.158) px；回传=(24.588°,2.709°) 目标=(24.588°,2.612°)；状态=双轴朝图像中心小幅修正
+frame=190 target=(722.510,535.756) candidates=1 image_age_ms=47 yaw=24.655 pitch=2.747 mode=1 feedback_age_ms=0
+frame=200 target=(721.954,536.864) candidates=1 image_age_ms=43 yaw=24.622 pitch=2.754 mode=1 feedback_age_ms=0
+控制：target=(721.954,536.864) 偏差=(2.454,-2.636) px；回传=(24.622°,2.754°) 目标=(24.622°,2.754°)；状态=双轴朝图像中心小幅修正
+frame=210 target=(723.571,537.486) candidates=1 image_age_ms=45 yaw=24.630 pitch=2.704 mode=1 feedback_age_ms=0
+frame=220 target=(721.022,535.654) candidates=1 image_age_ms=45 yaw=24.600 pitch=2.743 mode=1 feedback_age_ms=0
+控制：target=(721.022,535.654) 偏差=(1.522,-3.846) px；回传=(24.600°,2.743°) 目标=(24.600°,2.625°)；状态=双轴朝图像中心小幅修正
+frame=230 target=(721.259,537.077) candidates=1 image_age_ms=33 yaw=24.554 pitch=2.747 mode=1 feedback_age_ms=0
+frame=240 target=(722.233,537.574) candidates=1 image_age_ms=37 yaw=24.611 pitch=2.731 mode=1 feedback_age_ms=0
+控制：target=(722.233,537.574) 偏差=(2.733,-1.926) px；回传=(24.611°,2.731°) 目标=(24.611°,2.731°)；状态=双轴朝图像中心小幅修正
+frame=250 target=(720.613,536.190) candidates=1 image_age_ms=34 yaw=24.518 pitch=2.767 mode=1 feedback_age_ms=0
+frame=260 target=(722.188,537.075) candidates=1 image_age_ms=40 yaw=24.589 pitch=2.742 mode=1 feedback_age_ms=0
+控制：target=(722.188,537.075) 偏差=(2.688,-2.425) px；回传=(24.589°,2.742°) 目标=(24.589°,2.742°)；状态=双轴朝图像中心小幅修正
+frame=270 target=(721.294,535.838) candidates=1 image_age_ms=47 yaw=24.548 pitch=2.769 mode=1 feedback_age_ms=0
+frame=280 target=(722.524,538.883) candidates=1 image_age_ms=45 yaw=24.549 pitch=2.749 mode=1 feedback_age_ms=0
+控制：target=(722.524,538.883) 偏差=(3.024,-0.617) px；回传=(24.549°,2.749°) 目标=(24.456°,2.749°)；状态=双轴朝图像中心小幅修正
+frame=290 target=(722.401,536.986) candidates=1 image_age_ms=45 yaw=24.580 pitch=2.758 mode=1 feedback_age_ms=0
+frame=300 target=(721.394,537.217) candidates=1 image_age_ms=40 yaw=24.545 pitch=2.773 mode=1 feedback_age_ms=0
+控制：target=(721.394,537.217) 偏差=(1.894,-2.283) px；回传=(24.545°,2.773°) 目标=(24.545°,2.773°)；状态=双轴朝图像中心小幅修正
+frame=310 target=(722.890,538.074) candidates=1 image_age_ms=47 yaw=24.576 pitch=2.771 mode=1 feedback_age_ms=0
+frame=320 target=(720.007,537.739) candidates=1 image_age_ms=45 yaw=24.513 pitch=2.741 mode=1 feedback_age_ms=0
+控制：target=(720.007,537.739) 偏差=(0.507,-1.761) px；回传=(24.513°,2.741°) 目标=(24.513°,2.741°)；状态=双轴朝图像中心小幅修正
+frame=330 target=(722.187,537.154) candidates=1 image_age_ms=40 yaw=24.558 pitch=2.735 mode=1 feedback_age_ms=0
+frame=340 target=(722.542,536.904) candidates=1 image_age_ms=32 yaw=24.563 pitch=2.758 mode=1 feedback_age_ms=0
+控制：target=(722.542,536.904) 偏差=(3.042,-2.596) px；回传=(24.563°,2.758°) 目标=(24.469°,2.758°)；状态=双轴朝图像中心小幅修正
+frame=350 target=(722.844,537.110) candidates=1 image_age_ms=43 yaw=24.594 pitch=2.767 mode=1 feedback_age_ms=0
+frame=360 target=(722.032,535.615) candidates=1 image_age_ms=44 yaw=24.557 pitch=2.746 mode=1 feedback_age_ms=0
+控制：target=(722.032,535.615) 偏差=(2.532,-3.885) px；回传=(24.557°,2.746°) 目标=(24.557°,2.627°)；状态=双轴朝图像中心小幅修正
+frame=370 target=(721.878,536.451) candidates=1 image_age_ms=43 yaw=24.589 pitch=2.756 mode=1 feedback_age_ms=0
+frame=380 target=(722.301,537.344) candidates=1 image_age_ms=43 yaw=24.537 pitch=2.780 mode=1 feedback_age_ms=0
+控制：target=(722.301,537.344) 偏差=(2.801,-2.156) px；回传=(24.537°,2.780°) 目标=(24.537°,2.780°)；状态=双轴朝图像中心小幅修正
+frame=390 target=(722.405,538.546) candidates=1 image_age_ms=32 yaw=24.576 pitch=2.756 mode=1 feedback_age_ms=0
+frame=400 target=(722.000,536.731) candidates=1 image_age_ms=41 yaw=24.581 pitch=2.777 mode=1 feedback_age_ms=0
+控制：target=(722.000,536.731) 偏差=(2.500,-2.769) px；回传=(24.581°,2.777°) 目标=(24.581°,2.777°)；状态=双轴朝图像中心小幅修正
+frame=410 target=(722.871,536.415) candidates=1 image_age_ms=38 yaw=24.583 pitch=2.783 mode=1 feedback_age_ms=0
+frame=420 target=(721.952,536.100) candidates=1 image_age_ms=40 yaw=24.565 pitch=2.757 mode=1 feedback_age_ms=0
+控制：target=(721.952,536.100) 偏差=(2.452,-3.400) px；回传=(24.565°,2.757°) 目标=(24.565°,2.652°)；状态=双轴朝图像中心小幅修正
+frame=430 target=(722.403,537.659) candidates=1 image_age_ms=44 yaw=24.528 pitch=2.771 mode=1 feedback_age_ms=0
+跟随结束；正以每 50 ms 不超过 0.05° 回到起始角度。
+双轴已平滑回到起始角度附近。请拨回手动档；最多等待 10 秒。
+已切回手动档；无弹连续跟随测试完成。
+[2026-10-15 13:48:51.049] [info] HikRobot's capture thread stopped.
+[2026-10-15 13:48:51.057] [info] HikRobot's daemon thread stopped.
+[2026-10-15 13:48:51.057] [info] HikRobot destructed.

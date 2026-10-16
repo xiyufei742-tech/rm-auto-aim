@@ -1,0 +1,16 @@
+当前: yaw=44.965° pitch=2.280° roll=-0.194° mode=0 robot_id=3 bullet_speed=0.000m/s
+无弹 pitch +0.3° 阶跃：确认无弹、云台附近无人、遥控器在手动档。按回车后发送起始角度；看到提示再切视觉档。
+起始目标: yaw=44.951° pitch=2.276° roll=-0.154° mode=0 robot_id=3 bullet_speed=0.000m/s
+开始保持起始角度，fire_flag=0；请现在切视觉档。
+视觉档已确认，先保持 0.7 秒。
+稳定: yaw=44.956° pitch=2.279° roll=-0.154° mode=1 robot_id=3 bullet_speed=0.000m/s
+稳定: yaw=44.939° pitch=2.282° roll=-0.167° mode=1 robot_id=3 bullet_speed=0.000m/s
+pitch 目标 +0.3°，持续 2 秒；yaw 保持起始角度。
+阶跃: yaw=44.940° pitch=2.281° roll=-0.154° mode=1 robot_id=3 bullet_speed=0.000m/s
+阶跃: yaw=44.939° pitch=2.471° roll=-0.155° mode=1 robot_id=3 bullet_speed=0.000m/s
+阶跃: yaw=44.939° pitch=2.473° roll=-0.145° mode=1 robot_id=3 bullet_speed=0.000m/s
+阶跃: yaw=44.935° pitch=2.476° roll=-0.159° mode=1 robot_id=3 bullet_speed=0.000m/s
+停止阶跃，回到起始角度。
+阶跃期间实际 pitch 相对起点：+0.005° 至 +0.242°
+已确认 pitch 回位；请现在切回手动档。
+无弹 pitch 阶跃测试完成，mode=0。

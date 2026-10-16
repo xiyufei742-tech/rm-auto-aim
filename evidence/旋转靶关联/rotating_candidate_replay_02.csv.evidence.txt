@@ -1,0 +1,37 @@
+input_video=/home/blue/robomaster/自瞄项目/output/field_1014_01/rotating_01.avi
+input_video_sha256=bb4a6809347567f9d5214dbfa707e8c3baf2cf2cb94136129b76f9a6a4568b3f
+input_csv=/home/blue/robomaster/自瞄项目/output/field_1014_01/rotating_01.csv
+input_csv_sha256=f3304393522e74f1e9a477b8f3b28d2c1b25d57df5e297bdf7a13e771f53a6f7
+input_config=/home/blue/robomaster/自瞄项目/output/field_1014_01/rotating_01.config.yaml
+input_config_sha256=fd3a9d5b0b3db6b63c5631e9553a2295a6abd59dbc5f59fb3c84779017862015
+config_snapshot=/home/blue/robomaster/自瞄项目/output/field_1014_01/rotating_01.config.yaml
+config_snapshot_sha256=fd3a9d5b0b3db6b63c5631e9553a2295a6abd59dbc5f59fb3c84779017862015
+session=/home/blue/robomaster/自瞄项目/output/field_1014_01/rotating_01.session.txt
+session_sha256=880a93a1b8129fd46c6ceb2815d231e88c5ac41e80ea3142c3b2bfece6cb43d0
+manifest=/home/blue/robomaster/自瞄项目/output/field_1014_01/SHA256SUMS
+manifest_sha256=f9e276b5912f89468011b2373742473d16184e5f7736247fe84b6e7086066234
+manifest_verified=true
+model_xml=/home/blue/robomaster/自瞄项目/assets/yolov5.xml
+model_xml_sha256=1cf9f2eb20e0312e8277ec457cfc67fb6867c4ff634d337c9c441a6aea052f8a
+model_bin=/home/blue/robomaster/自瞄项目/assets/yolov5.bin
+model_bin_sha256=aeae1db78494b631ddc1420a04714608b5dcf8bdf11f360ce503309757b1a7de
+classifier_model=/home/blue/robomaster/自瞄项目/assets/tiny_resnet.onnx
+classifier_model_sha256=9f45670da9e61f31b60c12efb08c8a7522ff56cc220c7fa9907283ce7e730179
+session_avi_playback_fps=30.000000
+session_config_snapshot=rotating_01.config.yaml
+session_phase=rotating
+session_raw_detections_meaning=post-NMS YOLO armor results, before probe blue filter
+session_requested_frames=900
+session_saved_frames=900
+session_schema=1
+session_serial_enabled=true
+session_source=camera
+session_status=complete_frame_count_verified
+decoded_frames=900
+count_mismatch_limit=3
+count_mismatch_frames=2
+count_mismatch_frame=53,original=1,replay=2
+count_mismatch_frame=475,original=2,replay=1
+output_csv=/home/blue/robomaster/自瞄项目/output/rotating_analysis_1015/rotating_candidate_replay_02.csv
+output_csv_sha256=c805738e70275146773eec5d38ee8876ccce73ec7903c81c7b5e93268a6313a7
+note=SHA256SUMS is an unsigned checksum list; detector model assets are not in it.

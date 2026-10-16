@@ -1,0 +1,43 @@
+# 【学习导读｜本地学习副本的运行参数】
+# 这是参数文件，不是算法源码；程序启动时读取，不会自动同步到NUC。
+# NUC现场文件名为live_yolo_1011.yaml；当前副本统一用live_yolo.yaml。
+# 这里没有实测相机内参或安装外参，不能当作已标定的完整自瞄配置。
+
+# 个人项目当前的实机预览参数；不是相机标定结果。
+# 目标颜色配置。当前现场probe/step/follow还在select_armor中固定筛选blue，
+# 仅修改本行不能保证这些主程序自动改为选红色，需核查对应源码。
+enemy_color: "blue"
+
+# 识别：沿用同济开源的 YOLOv5 模型与角点解码。
+yolo_name: yolov5
+yolov5_model_path: assets/yolov5.xml
+classify_model: assets/tiny_resnet.onnx
+device: CPU
+# 检测后过滤阈值；不是识别准确率，也不是越低越好。
+min_confidence: 0.8
+# 是否在YOLO候选附近用传统灯条法二次修正角点；false时不运行这一步。
+use_traditional: false
+# false表示识别全图；true裁切roi后识别，并把输出点加回裁切偏移。
+use_roi: false
+roi: {x: 420, y: 50, width: 600, height: 600}
+
+# YOLOV5 内部仍会构造 Detector；以下是传统识别器需要的参数。
+threshold: 150
+max_angle_error: 45
+min_lightbar_ratio: 1.5
+max_lightbar_ratio: 20
+min_lightbar_length: 8
+min_armor_ratio: 1
+max_armor_ratio: 5
+max_side_ratio: 1.5
+max_rectangular_error: 25
+
+# 10 月 11 日车载海康相机预览参数。
+camera_name: "hikrobot"
+# 曝光单位毫秒，影响亮度和运动拖影；要根据灯条/数字清晰度与运动速度调整。
+exposure_ms: 5
+# 增益会放大信号也放大噪声，不能替代合适曝光与光学对焦。
+gain: 16
+vid_pid: "2bdf:0001"
+# 软件将BGR图旋转180°；颜色Bayer映射在驱动中处理，是另一件事。
+rotate_180: true

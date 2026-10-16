@@ -1,0 +1,36 @@
+# 构建与编辑器
+build/
+.cache/
+.vscode/
+.idea/
+compile_commands.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 现场原始数据与程序输出
+output/
+logs/
+MvSdkLog/
+*.avi
+*.mp4
+*.mkv
+*.bag
+*.core
+core
+core.*
+
+# 本机依赖与传输归档
+third_party/
+现场部署/
+*.tar
+*.tar.gz
+*.zip
+
+# 临时文件
+*.tmp
+*.swp
+*~
+

@@ -1,0 +1,13 @@
+# 离线求解结果，待实物验证；不要直接覆盖整个现场配置。
+image_width: 1440
+image_height: 1080
+camera_matrix: [1802.0130562, 0, 739.076320787, 0, 1803.05308824, 535.430719107, 0, 0, 1]
+distort_coeffs: [-0.0838598132353, 0.39778389011, 0.000190713312321, 0.000243153705801, -1.4077871468]
+board_type: chessboard
+pattern_cols: 8
+pattern_rows: 11
+center_distance_mm: 30
+accepted_views: 24
+reprojection_rms_px: 0.175394735979
+source_video: "/home/blue/robomaster-workspace-main/自瞄比赛项目/output/field_1014_01/calibration_board_01.avi"
+# 畸变顺序为 k1, k2, p1, p2, k3。tvec 在 views.csv 中，单位米。
