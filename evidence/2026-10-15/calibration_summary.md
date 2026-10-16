@@ -2,6 +2,27 @@
 
 本页抄录自车载 NUC 的终端报告。原始 AVI、角点图片、`views.csv` 和完整结果目录体积较大，未放入 GitHub 提交版；目前仍需从 NUC 完整归档后再做哈希核验。
 
+## 初次 1.85 m 手持棋盘试算
+
+- 当时输入的已知距离：1.850 m；棋盘由人手持，录制时有轻微移动。
+- 从报告得到 19 帧有效结果；PnP 直线距离中位数 1.8646 m，范围 1.8364～1.9878 m。
+- 中位数与输入值相差 +0.0146 m（+0.79%），但逐帧范围很宽，且棋盘在动。这个百分比只是该段录像的中位数差，**不能当作测距准确度**；固定棋盘的结果更适合展示。
+- 这段录像和 `views.csv` 仍留在 NUC，没有复制到当前电脑。因此这里是根据当时终端报告抄录的摘要，尚不能从原始数据重新运行核对。
+
+复现命令（拿到原 AVI 和对应内参后，在项目根目录运行）：
+
+```bash
+python3 calibration/validate_board_distance.py \
+  output/field_1015_02/board_distance_2m_01.avi \
+  --intrinsics output/field_1015_02/calibration_wide_result_02/camera_intrinsics.yaml \
+  --cols 8 --rows 11 --spacing-mm 30 \
+  --known-distance-m 1.85 \
+  --stride 5 --max-views 30 --min-views 5 \
+  --output-dir output/field_1015_02/board_distance_result_01
+```
+
+其中 `--cols` 和 `--rows` 是棋盘内角点数，`--spacing-mm` 是相邻内角点间距，`--known-distance-m` 是量到的相机到棋盘中心距离。工具从抽取的图像中检测棋盘角点，再用内参和已知棋盘尺寸运行 PnP，统计有效帧距离；板在移动时，这些帧并不共享同一个距离真值。
+
 ## 改进标定
 
 - 相机分辨率：1440 × 1080。
